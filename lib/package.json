@@ -1,0 +1,11 @@
+{
+  "name": "lib",
+  "type": "module",
+  "types": "d.d.ts",
+  "exports": {
+    "./b": {
+      "default": "./c.js",
+      "types": "./d.d.ts"
+    }
+  }
+}

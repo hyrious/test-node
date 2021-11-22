@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "//": "'main' omitted, the default value is index.js",
+  "imports": {
+    "#test": {
+      "default": "./test/a.js",
+      "types": "./types/test.d.ts"
+    }
+  },
+  "devDependencies": {
+    "lib": "file:lib"
+  }
+}
