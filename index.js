@@ -1,4 +1,6 @@
-import "#test";
-import { a } from "lib/b";
+const fs = require("fs");
+const path = require("path");
 
-console.log(a);
+const pkgPath = path.resolve(__filename, "../package.json");
+const exists = fs.existsSync(pkgPath);
+console.log({ exists, pkgPath });
